@@ -1,0 +1,47 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <script src="16_jQueryValidation.js"></script>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form name="registration">
+        <table>
+            <tr>
+                <td>
+                    <lable>Enter Firstname: </lable>
+                </td>
+                <td>
+                    <input type="text" name="firstname" required id="firstname" placeholder="John">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable>Enter Lastname: </lable>
+                </td>
+                <td>
+                    <input type="text" name="lastname" required id="lastname" placeholder="Doe">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable>Enter Email: </lable>
+                </td>
+                <td>
+                    <input type="text" name="email" required id="email" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable>Enter Password: </lable>
+                </td>
+                <td>
+                    <input type="password" name="password" required id="password" placeholder="******" minlength="8">
+                </td>
+            </tr>
+        </table>
+        <button type="submit" id="button">Submit</button>
+    </form>
+</body>
+</html>
